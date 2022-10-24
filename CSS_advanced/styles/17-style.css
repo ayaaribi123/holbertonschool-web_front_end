@@ -103,7 +103,7 @@ h6 {
 
 .section-footer{
 	padding: var(--section-padding);
-	margin: var(--section-footer-align);
+	text-align: var(--section-footer-align);
 }
 .section-header-align {
 	margin: auto;
