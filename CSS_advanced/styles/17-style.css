@@ -89,7 +89,7 @@ h6 {
 }
 
 .section{
-	padding: var(--section-body-padding);
+	padding: var(--section-padding);
 }
 
 .section-header {
