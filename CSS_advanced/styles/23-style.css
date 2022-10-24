@@ -203,6 +203,6 @@ ul.row{
 .social-link{
 	display: block;
 }
-.social-link:nth-child(svg){
+.social-link > svg{
 	fill: var(--text-color);
 }
