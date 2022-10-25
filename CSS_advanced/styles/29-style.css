@@ -200,7 +200,7 @@ h6 {
 	width: 0;
 	height: 0.2rem;
 }
-.nav .nav-link:hover .nav-link::before{
+.nav .nav-item:hover .nav-link::before{
 	color: var(--nav-item-link-hover);
 	background-color: var(--color-primary);
 	width: 100%;
