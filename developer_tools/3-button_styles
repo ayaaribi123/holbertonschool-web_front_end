@@ -1,0 +1,106 @@
+.btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active,
+.show > .btn-outline-light.dropdown-toggle {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-light:hover {
+	color: #212529;
+	background-color: #e2e6ea;
+	border-color: #dae0e5;
+}
+
+.btn:hover {
+	color: #212529;
+	text-decoration: none;
+}
+
+.btn-outline-light {
+	color: #f8f9fa;
+	border-color: #f8f9fa;
+}
+
+.btn-outline-light:hover {
+	color: #212529;
+	background-color: #f8f9fa;
+	border-color: #f8f9fa;
+}
+
+.btn {
+	display: inline-block;
+	font-weight: 400;
+	color: #212529;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-color: transparent;
+	border: 0.125rem solid transparent;
+	padding: 0.375rem 0.75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: 0.5rem;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-xl {
+	padding: 1rem 1.75rem;
+	font-size: 1.25rem;
+}
+
+a {
+	color: #78CDD2;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:hover {
+	color: #117964;
+	text-decoration: underline;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+user agent stylesheet
+a:-webkit-any-link {
+	color: -webkit-link;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+user agent stylesheet
+i {
+	font-style: italic;
+}
+
+.text-center {
+	text-align: center !important;
+}
+.text-white {
+	color: #fff !important;
+}
+
+.mr-2, .mx-2 {
+	margin-right: 0.5rem !important;
+}
+.fa, .fas {
+	font-weight: 900;
+}
+.fa, .far, .fas {
+	font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1;
+}
+
