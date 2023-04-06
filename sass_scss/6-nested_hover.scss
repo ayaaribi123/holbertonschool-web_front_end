@@ -1,8 +1,9 @@
-/* a Sass file that assigns the text color to the HTML tags button*/
+/* a Sass file that assigns the text color to the HTML tags body*/
 $primary_color: #FF0000;
 $primary_color-2:#00FF00;
 
 button {
-	color: $primary_color; }
-	button:hover {
+	color: $primary_color;
+	:hover {
 			color: $primary_color-2; }
+	}
