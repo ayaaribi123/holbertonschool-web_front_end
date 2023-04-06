@@ -1,0 +1,10 @@
+/* a Sass file that assigns Margin left and right */
+@mixin marginn ($marginn) {
+margin-left: $marginn;
+margin-right: $marginn;
+}
+body {
+	@include marginn(10px)}
+
+div {
+@include marginn(15px)}
